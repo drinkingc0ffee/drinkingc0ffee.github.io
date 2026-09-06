@@ -116,6 +116,53 @@ footer a:hover {
   color: var(--ink);
 }
 
+.page {
+  justify-content: flex-start;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  max-width: 40rem;
+}
+
+.page h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.page h1 .zero {
+  display: inline;
+}
+
+.page h2 {
+  margin-top: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.page p,
+.page li {
+  margin-top: 0.85rem;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.page ul {
+  padding-left: 1.2rem;
+}
+
+.page a {
+  color: var(--ink);
+}
+
+.bar a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (min-width: 720px) {
   main {
     padding-left: 4rem;
