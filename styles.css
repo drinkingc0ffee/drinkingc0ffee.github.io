@@ -100,6 +100,10 @@ h1 {
   color: var(--ink);
 }
 
+.status a {
+  color: inherit;
+}
+
 footer {
   padding: 1.5rem 1.75rem 2rem;
   border-top: 1px solid var(--line);
